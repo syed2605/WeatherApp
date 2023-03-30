@@ -1,0 +1,155 @@
+
+    body{
+        margin:0px;
+        background-image: url('https://cdn.wallpapersafari.com/35/15/e35Vwz.jpg');
+        background-image: repeating-linear-gradient(90deg, rgba(16, 36, 72, 0.25),  url('https://cdn.wallpapersafari.com/35/15/e35Vwz.jpg') 5px, transparent 50px, transparent 7px); 
+        background-size: cover;
+    }
+    #search-container{
+        display:flex;
+        height: 100px;
+        width: 100%;
+        background-color: #f2f2f2;
+    }
+    #search-input{
+        font-size: 1.3rem;
+        height: 8px;
+    width: 35%;
+    margin: 24px 0px 35px 117px;
+    background-color: #ffffff;
+    color: #525254;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 12px x;
+    padding: 16px;
+    }
+    #search-button{
+        height: 42px;
+    margin: 23px 0;
+    background-color: #48484a;
+    color: #ffffff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.3rem;
+    width: 6rem;
+    cursor: pointer;
+    }
+    .icon-arrow{
+        width: 50px;
+    margin: 35px 120px;
+}
+    #diff-button{
+        background-color: #ececed;
+        width: 9rem;
+    height: 50px;
+    margin: 20px -140px;
+    border: none;
+    border-radius: 15px;
+    color: #676769;
+    font-size: 0.9rem;
+    }
+    #Imperial-button{
+        position: relative;
+    right: 0px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 165px;
+    border-radius: 15px;
+    background-color: #ececed !important;
+    }
+    #metric-button{
+        padding: 10px;
+    margin: 7px 10px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    color: #676769;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    }
+    #imperial-p{
+        position: relative;
+    top: -50px;
+    right: -150px;
+    font-size: 1.0rem;
+    color: #676769;
+    width: max-content;
+    margin-left: 10px;
+    }
+    .img-c{
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: -30px;
+    }
+    .img-rain{
+        margin-top: 32px;
+    margin-right: 15px;
+    }
+    #weatherData{
+        padding-left: 120px;
+    padding-top: 45px;
+    width: 30%;
+    font-size: 1.1rem;
+    }
+    .date{
+        color: red;
+        margin-bottom: -15px;
+    }
+    .div{
+        border-left: 2px solid red;
+        padding-left: 15px;
+        margin-top: -10px;
+    }
+    .div1{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .div1 p{
+        margin-right: 30px;
+    }
+    .div2,.div3{
+        display: flex;
+    }
+    .div2 p , .div3 p{
+        margin-right: 20px;
+        margin-top: -10px;
+    }
+    #map{
+        height: max-content;
+    width: fit-content;
+    margin-top: -303px;
+    margin-left: 713px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    }
+    #forecast{
+        display: flex;
+    width: 30%;
+    margin-top: -150px !important;
+    margin-left: 120px !important;
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2rem;
+    color: #cccccc;
+    height: 165px;
+    margin-bottom: 60px;
+    }
+    #forecast div{
+        margin-top: -5px;
+        width: 100px;
+        padding: 0px 29px;
+        background-color: #282828;
+        border-color: #323232;
+        border: 1px solid;
+    }
+    #forecast div:last-child{
+        border-bottom-right-radius: 10px;
+    }
+    .colorDiv{
+        background-color: #333333;
+        border-bottom-left-radius: 10px;
+    }
